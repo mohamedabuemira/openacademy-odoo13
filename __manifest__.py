@@ -7,7 +7,7 @@
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Long description of module's purpose
+        Open Academy odoo13
     """,
 
     'author': "AbuEmira",
@@ -24,6 +24,7 @@
 
     # always loaded 'views/partner.xml',
     'data':[
+        'security/security.xml',
         'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
