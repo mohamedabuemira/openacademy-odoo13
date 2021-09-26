@@ -7,7 +7,7 @@
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Open Academy odoo13
+        Open Academy odoo13 v1
     """,
 
     'author': "AbuEmira",
@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','board'],
 
     # always loaded 'views/partner.xml',
     'data':[
@@ -30,6 +30,9 @@
         'views/templates.xml',
         'views/openacademy.xml',
         'views/partner.xml',
+        'views/session_board.xml',
+        'reports/SessionReport.xml',
+
     ],
     # only loaded in demonstration mode
     'demo': [
